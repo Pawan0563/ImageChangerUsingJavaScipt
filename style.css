@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#Slider-container {
+    position: relative;
+    width: 100%;
+
+}
+
+.slide img {
+    height: 80%;
+    width: 100%;
+
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 40%;
+    background-color: #fff;
+    font-weight: 20px;
+    font-size: 20px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.caption {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    /* bottom: 0px; */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 10px;
+}
+
+.slide {
+    display: none;
+    height: 700px;
+
+}
